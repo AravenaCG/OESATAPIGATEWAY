@@ -21,6 +21,17 @@
         }
       ],
       "DownstreamPathTemplate": "/cursos"
+    },
+    {
+      "UpstreamPathTemplate": "/orquestaGateway/estudiante/save",
+      "UpstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7182
+        }
+      ],
+      "DownstreamPathTemplate": "/estudiante/save"
     }
   ],
   "GlobalConfiguration": {

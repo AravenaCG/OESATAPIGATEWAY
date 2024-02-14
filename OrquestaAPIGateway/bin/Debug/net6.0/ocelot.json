@@ -17,13 +17,26 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7231
+          "Port": 7182
         }
       ],
       "DownstreamPathTemplate": "/cursos"
+    },
+    {
+      "UpstreamPathTemplate": "/orquestaGateway/estudiante/save",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7182
+        }
+      ],
+      "DownstreamPathTemplate": "/estudiante/save"
     }
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:7158"
   }
 }
+//cristian.g.aravena@gmail.com
+//caravena222
