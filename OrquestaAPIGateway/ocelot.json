@@ -1,0 +1,31 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/orquestaGateway/login",
+      "UpstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7231
+        }
+      ],
+      "DownstreamPathTemplate": "/usuario/login"
+    },
+    {
+      "UpstreamPathTemplate": "/orquestaGateway/cursos",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7182
+        }
+      ],
+      "DownstreamPathTemplate": "/cursos"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7158"
+  }
+}
+//cristian.g.aravena@gmail.com
+//caravena222
