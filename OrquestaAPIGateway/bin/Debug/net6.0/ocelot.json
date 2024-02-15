@@ -24,7 +24,7 @@
     },
     {
       "UpstreamPathTemplate": "/orquestaGateway/estudiante/save",
-      "UpstreamHttpMethod": [ "POST" ],
+      "UpstreamHttpMethod": [],
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
