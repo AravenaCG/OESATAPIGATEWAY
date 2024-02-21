@@ -32,11 +32,20 @@
         }
       ],
       "DownstreamPathTemplate": "/estudiante/save"
+    },
+    {
+      "UpstreamPathTemplate": "/orquestaGateway/estudiantes",
+      "UpstreamHttpMethod": [],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5062
+        }
+      ],
+      "DownstreamPathTemplate": "/estudiantes"
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:7158"
+    "BaseUrl": "https://localhost:5000"
   }
 }
-//cristian.g.aravena@gmail.com
-//caravena222

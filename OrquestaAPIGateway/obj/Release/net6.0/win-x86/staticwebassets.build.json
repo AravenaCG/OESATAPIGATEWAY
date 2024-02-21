@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4eyjrydyNypGYtvfCTk5HfVg8Pk4S6MXPS+AkQAed/M=",
+  "Source": "OrquestaAPIGateway",
+  "BasePath": "_content/OrquestaAPIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
