@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrquestaAPIGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd3e0f1144c7e1f7c90054f7277a97423d4a244")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85ef3f23d8ecf9f247cc85eea6f4852230a14fd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrquestaAPIGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrquestaAPIGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

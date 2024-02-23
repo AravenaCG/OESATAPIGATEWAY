@@ -5,8 +5,7 @@
       "UpstreamHttpMethod": [],
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7231
+          "Host": "https://jwtauthapi.azurewebsites.net"
         }
       ],
       "DownstreamPathTemplate": "/usuario/login"
@@ -46,6 +45,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5000"
+    "BaseUrl": "https://orquestaapigateway.azurewebsites.net"
   }
 }

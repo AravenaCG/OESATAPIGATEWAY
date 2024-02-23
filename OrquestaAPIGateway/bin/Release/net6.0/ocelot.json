@@ -5,8 +5,7 @@
       "UpstreamHttpMethod": [],
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7231
+          "Host": "https://jwtauthapi.azurewebsites.net"
         }
       ],
       "DownstreamPathTemplate": "/usuario/login"
@@ -16,8 +15,7 @@
       "UpstreamHttpMethod": [ "GET" ],
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7182
+          "Host": "https://sistemagestionorquesta.azurewebsites.net"
         }
       ],
       "DownstreamPathTemplate": "/cursos"
@@ -27,8 +25,7 @@
       "UpstreamHttpMethod": [],
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7182
+          "Host": "https://sistemagestionorquesta.azurewebsites.net"
         }
       ],
       "DownstreamPathTemplate": "/estudiante/save"
@@ -38,14 +35,13 @@
       "UpstreamHttpMethod": [],
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5062
+          "Host": "https://sistemagestionorquesta.azurewebsites.net"
         }
       ],
       "DownstreamPathTemplate": "/estudiantes"
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5000"
+    "BaseUrl": "https://orquestaapigateway.azurewebsites.net"
   }
 }
